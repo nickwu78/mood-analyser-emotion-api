@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <title>Emotion API</title>
+</head>
+<body>
+  <center><video id="camera-stream" width="70%" autoplay="true"></video></center>
+  <center><span id="capture-button">Capture</span></center>
+  <div>
+    <h2>Photo</h2>
+    <div style="position:relative">
+    <canvas id="canvas" width="300" height="200"></canvas>
+    <div class="face-rectangle"></div>
+    </div>
+  </div>
+  <span id="use-this">Analyse</span>
+
+  <div>
+    <p class="here-you-go"></p>
+  </div>
+  <ul class="emotions-result">
+  </ul>
+  <script src="script.js"></script>
+</body>
+</html>

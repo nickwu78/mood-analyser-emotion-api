@@ -15,6 +15,8 @@ Clone this repo, then choose the cloned repo folder and start the web server. Yo
 
 `http://127.0.0.1:8887`
 
+I have removed my emotion API key, please sign up an account and [request an API key](https://www.microsoft.com/cognitive-services/en-us/emotion-api), then add it to [YOUR API KEY HERE] in script.js
+
 ## To Do:
 
 * Formatting and HTML work via a framework (Bootstrap? Materialise?)

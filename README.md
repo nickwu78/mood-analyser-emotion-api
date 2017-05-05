@@ -11,9 +11,9 @@ This is a project i'm working on whilst following a [tutorial](https://onextrapi
 
 For this project, I built a website which assesses your emotions and mood.
 
-It accesses your webcam, and once you take a photo, click the Analyse button. A request is sent to the Microsoft Cognitive Services server, passing the image through the Emotion API.
+Using your webcam, take a photo, then click the "Analyse" button. A request is sent to the Microsoft Cognitive Services server, passing the image through the Emotion API.
 
-It will draw a rectangle, highlighting where the face is, and print out a set of statistics based on your mood in a number of categories including happiness, sadness, anger etc.
+It will highlight the face that has been detected, and print out a set of statistics based on your mood in a number of categories including happiness, sadness, anger etc.
 
 ## Installation
 

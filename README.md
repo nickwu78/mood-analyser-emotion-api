@@ -7,6 +7,14 @@ This is a project i'm working on whilst following a [tutorial](https://onextrapi
 * Receiving JSON from API endpoint, formatting the data, and displaying it.
 * General jQuery practice.
 
+## Description
+
+For this project, I built a website which assesses your emotions and mood.
+
+It accesses your webcam, and once you take a photo, click the Analyse button. A request is sent to the Microsoft Cognitive Services server, passing the image through the Emotion API.
+
+It will draw a rectangle, highlighting where the face is, and print out a set of statistics based on your mood in a number of categories including happiness, sadness, anger etc.
+
 ## Installation
 
 You need to run a local webserver to use this project. Please install the [Chrome Web Server](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)

@@ -5,6 +5,19 @@ video, canvas {
   margin: 20px 0;
 }
 
+html {
+  height: 100%
+}
+body {
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #F2994A, #F2C94C );  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F2994A, #F2C94C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 span {
   display: inline-block;
   background: tomato;
@@ -28,4 +41,34 @@ span {
   border: 2px dotted #4cc9b4;
   z-index: 98;
   display: none;
+}
+
+.card-margin {
+  margin-top: 20px;
+}
+
+.here-you-go {
+  color: #525f7f;
+  font-size: 36px;
+}
+
+.margins {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+h4 {
+  color: #525f7f;
+}
+
+.progress-bar {
+  -webkit-transition: width 10.5s ease;
+  transition: width 10.5s ease;
+}
+
+.selectedEmotion {
+  margin-top: 30px;
+  color: white;
 }

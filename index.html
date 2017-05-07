@@ -9,25 +9,36 @@
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <title>Emotion API</title>
 </head>
 <body>
-  <center><video id="camera-stream" width="70%" autoplay="true"></video></center>
-  <center><span id="capture-button">Capture</span></center>
-  <div>
-    <h2>Photo</h2>
-    <div style="position:relative">
-    <canvas id="canvas" width="300" height="200"></canvas>
-    <div class="face-rectangle"></div>
+
+<div class="container">
+  <center><h1 class="selectedEmotion"></h1></center>
+  <div class="row">
+    <div class="col-6">
+      <video id="camera-stream" width="100%" autoplay="true"></video>
+      <center><button id="capture-button" class="btn btn-primary">Take Photo</button></center>
+    </div>
+    <div class="col-6">
+      <center><canvas id="canvas" width="500" height="400"></canvas></center>
+      <div class="face-rectangle"></div>
+      <center><button id="use-this" class="btn btn-primary analyse-btn">Analyse</button</center>
     </div>
   </div>
-  <span id="use-this">Analyse</span>
-
-  <div>
-    <p class="here-you-go"></p>
+  <div class="row">
+    <div class="card margins">
+      <div class="card-block">
+        <h5 class="here-you-go" id="here"></h5>
+        <ul class="emotions-result">
+      </div>
+    </div>
   </div>
-  <ul class="emotions-result">
-  </ul>
-  <script src="script.js"></script>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

@@ -9,16 +9,9 @@ html {
   height: 100%
 }
 body {
-  background: rgba(212,20,90,1);
-  background: -moz-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(212,20,90,1)), color-stop(100%, rgba(251,177,59,1)));
-  background: -webkit-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
-  background: -o-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
-  background: -ms-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
-  background: linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4145a', endColorstr='#fbb13b', GradientType=1 );
-  background-size: auto auto;
-  background-repeat: no-repeat;
+  background: #F2994A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #F2994A, #F2C94C );  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F2994A, #F2C94C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
@@ -62,6 +55,7 @@ span {
 .margins {
   margin-left: 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -70,8 +64,8 @@ h4 {
 }
 
 .progress-bar {
-  -webkit-transition: width 2.5s ease;
-  transition: width 2.5s ease;
+  -webkit-transition: width 10.5s ease;
+  transition: width 10.5s ease;
 }
 
 .selectedEmotion {

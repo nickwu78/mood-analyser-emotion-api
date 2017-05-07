@@ -5,6 +5,26 @@ video, canvas {
   margin: 20px 0;
 }
 
+html {
+  height: 100%
+}
+body {
+  background: rgba(212,20,90,1);
+  background: -moz-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(212,20,90,1)), color-stop(100%, rgba(251,177,59,1)));
+  background: -webkit-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
+  background: linear-gradient(45deg, rgba(212,20,90,1) 0%, rgba(251,177,59,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4145a', endColorstr='#fbb13b', GradientType=1 );
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 span {
   display: inline-block;
   background: tomato;
@@ -28,4 +48,33 @@ span {
   border: 2px dotted #4cc9b4;
   z-index: 98;
   display: none;
+}
+
+.card-margin {
+  margin-top: 20px;
+}
+
+.here-you-go {
+  color: #525f7f;
+  font-size: 36px;
+}
+
+.margins {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+h4 {
+  color: #525f7f;
+}
+
+.progress-bar {
+  -webkit-transition: width 2.5s ease;
+  transition: width 2.5s ease;
+}
+
+.selectedEmotion {
+  margin-top: 30px;
+  color: white;
 }

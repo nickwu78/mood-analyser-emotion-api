@@ -49,7 +49,7 @@ navigator.getUserMedia(
                     });
                 };
 
-      var emotion_api_key = "3e41cb2d62de47959882c48686055355";
+      var emotion_api_key = "[YOUR KEY HERE]";
 
       $.ajax({
           url: "https://api.projectoxford.ai/emotion/v1.0/recognize",
